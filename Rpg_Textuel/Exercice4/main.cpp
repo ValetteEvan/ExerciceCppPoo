@@ -12,7 +12,7 @@ int main()
 	std::vector<Livre> book; 
 	book.push_back(bookMain); 
 	book.push_back(bookMain2);
-	book.push_back(bookMain3); 
+	book.push_back(bookMain3);   
 
 	for (int i = 0; i < book.size(); i++)
 	{
