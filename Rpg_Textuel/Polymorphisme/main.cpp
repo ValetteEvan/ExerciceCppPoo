@@ -10,10 +10,9 @@ int main()
 	animals.push_back(new Dog);
 
     for (Animal* animal : animals) {
-        animal->makeSound(); // Appelle la méthode appropriée
+        animal->makeSound();
     }
 
-    // Libération de la mémoire
     for (Animal* animal : animals) {
         delete animal;
     }
