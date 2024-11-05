@@ -11,6 +11,5 @@ public:
 	Buffer(int _max) : MAX_BUFFER(_max) {}; 
 	void addOnBuffer(int _value);  
 	void extractLastOnBuffer(); 
-	int getValueOnBUffer(); 
 	void displayBuffer();  
 };
