@@ -40,8 +40,8 @@ template<typename T>
 inline T Circulare_Buffer<T>::dequeElement() 
 {
 	T item = buffer[head]; 
-	buffer[head] = buffer.release();   
-	head = (head + 1) % max_size; 
+	buffer[head] = buffer.release();
+	head = (head + 1) % max_size;
 	return item;
 }
 
